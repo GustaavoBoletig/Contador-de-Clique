@@ -1,0 +1,57 @@
+body{
+background-color: rgb(240, 240, 240);
+}
+.container1{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+margin-top: 125px;
+}
+.container2{
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+#saida{
+background-color: rgb(237, 248, 248);
+border: 0;
+border-radius: 3px;
+padding-top: 70px;
+padding-right: 195px;
+padding-left: 195px;
+font-weight: 900;
+font-size: 50px;
+font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+margin-bottom: 30px;
+padding-bottom: 50px;
+}
+#add{
+background-color: rgb(163, 240, 47);
+color: white;
+height: 150px;
+width: 200px;
+margin: 10px;
+font-weight: 900;
+font-size: 30px;
+border: 0;
+border-radius: 3px;
+}
+#add:hover{
+background-color: rgb(133, 201, 31);
+}
+#remove{
+background-color: rgb(255, 68, 68);
+color: white;
+height: 150px;
+width: 200px;
+margin: 10px;
+font-weight: 900;
+font-size: 35px;
+border: 0;
+border-radius: 3px;
+}
+#remove:hover{
+background-color: rgb(202, 50, 50);
+}
